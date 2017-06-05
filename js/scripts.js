@@ -9,7 +9,7 @@ $(document).ready(function() {
     things.push($("input#city").val()),
     things.push($("input#hobby").val());
 
-    alert(things.toString());
+    //alert(things.toString());
 
     $("#inputName").text(things[0]);
     $("#inputBand").text(things[1]);
@@ -17,7 +17,7 @@ $(document).ready(function() {
     $("#inputCity").text(things[3]);
     $("#inputHobby").text(things[4]);
 
-
+    $("#results").show();
 
 
     event.preventDefault();
